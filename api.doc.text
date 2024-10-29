@@ -1,0 +1,4 @@
+api/v1/marketplace/MarketPlace?relations[]=nftDetails&relations[]=ownerUser
+api/v1/marketplace/MarketPlace?relations[]=nftDetails&relations[]=ownerUser&where[nftDetails][nftId]=1
+api/v1/marketplace/MarketplaceNftAuctionBidsRecords?relations[]=bidderUser&where[_id]=4
+api/v1/marketplace/MarketplaceNftOffersRecords?relations[]=buyerUser&where[_id]=3
